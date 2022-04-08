@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../js/javascript.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form2">
+            <div class="titulo">
+                <span>Formulario de registro</span>
+            </div>
+            <form onsubmit="singUp()">
+                <div class="row">
+                    <input type="text" placeholder="Nombre completo" id="name" required>                
+                </div>
+               <div class="row">
+                    <input type="text" placeholder="Correo" id="email" required>                
+                </div>
+                <div class="row">
+                    <input type="text" placeholder="teléfono" id="number" required>                
+                </div>
+               <div class="row">
+                    <input type="password" placeholder="Contraseña" id="pass" required>                
+                </div>
+                <div class="row button">
+                    <input type="submit" value="Registrar">
+                </div>
+                <a href="../index.html">Regresar</a>
+            </form>
+        </div>
+        </div>
+</body>
+</html>
